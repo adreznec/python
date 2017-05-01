@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM ppc64le/alpine:edge
 
 # ensure local python is preferred over distribution python
 ENV PATH /usr/local/bin:$PATH
